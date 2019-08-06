@@ -50,7 +50,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border:1px solid red;
 }
 
 html, body {
@@ -67,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body{
 	max-width:1024px;
+	margin:40px 60px 40px 60px;
 }
 .nav-container{
 	width:100%;
@@ -76,5 +76,30 @@ body{
 	vertical-align: middle;
 }
 nav a {
-	margin:60px;
+	margin:0 25px 0 25px;
+	color:gray;
+	text-decoration: none;
+	color:rgba(128,128,128,.5);
+}
+.nav-container img{
+
+}
+.action-container{
+	text-align:center;
+}
+
+.action-container img, .action-container-inner{
+	display:inline-block;
+}
+.action-container-inner{
+	margin-top:
+	height:379px;
+	width:379px;
+}
+h1{
+	font-size:64px;
+}
+button{
+	display:block;
+	margin:0 auto;
 }
