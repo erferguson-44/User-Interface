@@ -76,7 +76,7 @@ body{
 	vertical-align: middle;
 }
 nav a {
-	margin:0 25px 0 25px;
+	margin:0 80px 0 0;
 	color:gray;
 	text-decoration: none;
 	color:rgba(128,128,128,.5);
@@ -91,13 +91,17 @@ nav a {
 .action-container img, .action-container-inner{
 	display:inline-block;
 }
+.action-container img{
+	margin-left:20px;
+}
 .action-container-inner{
-	margin-top:
-	height:379px;
-	width:379px;
+	display:inline-block;
+	vertical-align: middle;
+	max-width:379px;
+	margin-right:20px;
 }
 h1{
-	font-size:64px;
+	font-size:72px;
 }
 button{
 	display:block;
