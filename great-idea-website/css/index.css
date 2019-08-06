@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -77,13 +77,13 @@ body{
 	vertical-align: middle;
 }
 nav a {
-	margin:0 80px 0 0;
+	margin:0 40px 0 0;
 	color:gray;
 	text-decoration: none;
 	color:rgba(128,128,128,.5);
 }
 .nav-container img{
-	margin-left:60px;
+	margin-left:40px;
 }
 .action-container{
 	text-align:center;
@@ -125,7 +125,7 @@ button{
 	margin-right:20px;
 }
 .middle-img{
-	width:100px;
+	width:100%;
 }
 .content-second{
 	display:inline-block;
@@ -139,8 +139,12 @@ button{
 .second-section{
 	border-bottom:1px solid black;
 }
-footer{
+#footer{
 	margin-top:40px;
 	font-family: 'Roboto', sans-serif;
 
+}
+#copyright{
+	text-align:center;
+	padding:100px;
 }
