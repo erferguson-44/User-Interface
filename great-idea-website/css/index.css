@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width:1024px;
+	margin:0 auto;
+	/* margin:40px 100px 40px 100px; */
+}
+header{
+	position:fixed;
+	background:pink;
+	height:60px;
+	width:1024px;
+	padding-left:10px;
+	z-index:1;
+}
+
+.nav-container nav, img{
+	display:inline-block;
+	vertical-align: middle;
+}
+nav a {
+	margin:0 40px 0 0;
+	color:gray;
+	text-decoration: none;
+	color:rgba(128,128,128,.5);
+}
+.nav-container img{
+	margin-left:40px;
+}
+.action-container{
+	text-align:center;
+	border-bottom: 1px solid black;
+	padding-bottom:75px;
+	margin-top:30px;
+}
+
+.action-container img, .action-container-inner{
+	display:inline-block;
+}
+.action-container img{
+	margin-left:20px;
+}
+.action-container-inner{
+	display:inline-block;
+	vertical-align: middle;
+	max-width:379px;
+	margin-right:20px;
+}
+h1{
+	font-size:96px;
+}
+button{
+	display:block;
+	margin:0 auto;
+	background:white;
+	border:1px solid black;
+	padding:10px 
+}
+.content-first{
+	display:inline-block;
+	max-width:45%;
+	margin:40px 0 40px 0;
+}
+.content-first:nth-child(1){
+	margin-right:20px;
+}
+.content-first:nth-child(2){
+	margin-right:20px;
+}
+.middle-img{
+	width:100%;
+}
+.content-second{
+	display:inline-block;
+	max-width:30%;
+	margin:40px 0 40px 0;
+}
+.content-second:nth-child(2){
+	margin-left:40px;
+	margin-right:40px;
+}
+.second-section{
+	border-bottom:1px solid black;
+}
+#footer{
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+
+}
+#copyright{
+	text-align:center;
+	padding:100px;
+}
