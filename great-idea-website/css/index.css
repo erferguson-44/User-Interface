@@ -64,14 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body{
-	max-width:1024px;
-	margin:40px 100px 40px 100px;
+.container{
+	width:1024px;
+	margin:0 auto;
+	/* margin:40px 100px 40px 100px; */
 }
-.nav-container{
-	width:100%;
-	margin-bottom:75px;
+header{
+	position:fixed;
+	background:pink;
+	height:60px;
+	width:1024px;
+	padding-left:10px;
+	z-index:1;
 }
+
 .nav-container nav, img{
 	display:inline-block;
 	vertical-align: middle;
@@ -89,6 +95,7 @@ nav a {
 	text-align:center;
 	border-bottom: 1px solid black;
 	padding-bottom:75px;
+	margin-top:30px;
 }
 
 .action-container img, .action-container-inner{
